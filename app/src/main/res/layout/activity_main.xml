@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/AppName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quiz App"
+        android:gravity="center"
+        android:textSize="44sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/AppName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Quiz Mode"
+        android:gravity="center"
+        android:layout_below="@+id/logo"
+        android:textSize="34sp"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/easyBtn"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#EDD928"
+
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/questionTextView"
+        android:layout_marginTop="26dp"
+        android:textColor="@color/white"
+
+        android:text="Easy" />
+
+    <Button
+        android:id="@+id/midBtn"
+        android:layout_width="170dp"
+        android:backgroundTint="#1653CC"
+        android:layout_height="50dp"
+        android:textColor="@color/white"
+
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/easyBtn"
+        android:layout_marginTop="28dp"
+        android:text="Medium" />
+    <Button
+        android:id="@+id/hardBtn"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:textColor="@color/white"
+
+        android:backgroundTint="#F60247"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/midBtn"
+        android:layout_marginTop="28dp"
+        android:text="hard" />
+
+
+</RelativeLayout>
