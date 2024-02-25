@@ -67,6 +67,7 @@
         android:layout_width="190dp"
         android:layout_height="60dp"
         android:textSize="20dp"
+
         android:textColor="@color/white"
         android:backgroundTint="#F60247"
         android:layout_centerHorizontal="true"
