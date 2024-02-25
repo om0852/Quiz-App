@@ -46,6 +46,7 @@
         android:layout_below="@id/questionTextView"
         android:layout_marginTop="26dp"
         android:textColor="@color/white"
+        android:textSize="20dp"
 
         android:text="Easy" />
 
@@ -53,7 +54,8 @@
         android:id="@+id/midBtn"
         android:layout_width="170dp"
         android:backgroundTint="#1653CC"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
+        android:textSize="20dp"
         android:textColor="@color/white"
 
         android:layout_centerHorizontal="true"
@@ -64,13 +66,13 @@
         android:id="@+id/hardBtn"
         android:layout_width="170dp"
         android:layout_height="50dp"
+        android:textSize="20dp"
         android:textColor="@color/white"
-
         android:backgroundTint="#F60247"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/midBtn"
         android:layout_marginTop="28dp"
-        android:text="hard" />
+        android:text="Hard" />
 
 
 </RelativeLayout>
