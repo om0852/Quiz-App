@@ -38,8 +38,8 @@
 
     <Button
         android:id="@+id/easyBtn"
-        android:layout_width="170dp"
-        android:layout_height="50dp"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
         android:backgroundTint="#EDD928"
 
         android:layout_centerHorizontal="true"
@@ -52,7 +52,7 @@
 
     <Button
         android:id="@+id/midBtn"
-        android:layout_width="170dp"
+        android:layout_width="190dp"
         android:backgroundTint="#1653CC"
         android:layout_height="60dp"
         android:textSize="20dp"
@@ -64,8 +64,8 @@
         android:text="Medium" />
     <Button
         android:id="@+id/hardBtn"
-        android:layout_width="170dp"
-        android:layout_height="50dp"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
         android:textSize="20dp"
         android:textColor="@color/white"
         android:backgroundTint="#F60247"
