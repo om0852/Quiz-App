@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".quiz_page">
+<TextView
+    android:id="@+id/title"
+    android:layout_width="match_parent"
+    android:textSize="34dp"
+    android:gravity="center"
+    android:layout_marginTop="30dp"
+    android:layout_height="wrap_content"
+    android:text="Quiz Mode:-"
+    />
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="70dp"
+        android:text="Grastest Batsman of all time Grastest Batsman of all timeGrastest Batsman of all time"
+        />
+  
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/option1"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttondesign"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/question"
+        android:layout_marginTop="26dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:text="Option1" />
+    <Button
+        android:id="@+id/option2"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttondesign"
+        android:backgroundTint="#EDD928"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/option1"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:text="Option2" />
+    <Button
+        android:id="@+id/option3"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttondesign"
+
+        android:backgroundTint="#EDD928"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/option2"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:text="Option3" />
+    <Button
+        android:id="@+id/option4"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#EDD928"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/option3"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/buttondesign"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:text="Option4" />
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#FF5722"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/option4"
+        android:layout_marginTop="56dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:text="Submit" />
+
+</RelativeLayout>
