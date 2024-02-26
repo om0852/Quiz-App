@@ -43,26 +43,25 @@ public class quiz_page extends AppCompatActivity {
     }
 
     public void option_fun1() {
-        Toast.makeText(this, "option1 click", Toast.LENGTH_SHORT).show();
-        option1.setBackgroundColor(Color.BLUE);
+        option1.setBackgroundColor(Color.GREEN);
         option2.setBackgroundColor(Color.RED);
         option3.setBackgroundColor(Color.RED);
         option4.setBackgroundColor(Color.RED);
     }
     public void option_fun2() {
         option1.setBackgroundColor(Color.RED);
-        option2.setBackgroundColor(Color.BLUE);
+        option2.setBackgroundColor(Color.GREEN);
         option3.setBackgroundColor(Color.RED);
         option4.setBackgroundColor(Color.RED);    }
     public void option_fun3() {
         option1.setBackgroundColor(Color.RED);
         option2.setBackgroundColor(Color.RED);
-        option3.setBackgroundColor(Color.BLUE);
+        option3.setBackgroundColor(Color.GREEN);
         option4.setBackgroundColor(Color.RED);
     }
     public void option_fun4() {
         option1.setBackgroundColor(Color.RED);
         option2.setBackgroundColor(Color.RED);
         option3.setBackgroundColor(Color.RED);
-        option4.setBackgroundColor(Color.BLUE);    }
+        option4.setBackgroundColor(Color.GREEN);    }
 }

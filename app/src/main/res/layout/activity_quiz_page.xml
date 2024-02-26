@@ -39,36 +39,32 @@
         android:textColor="@color/white"
         android:textSize="20dp"
         android:text="Option1" />
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/option2"
         android:layout_width="320dp"
         android:layout_height="60dp"
         android:background="@drawable/buttondesign"
-        android:backgroundTint="#EDD928"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/option1"
         android:layout_marginTop="16dp"
         android:textColor="@color/white"
         android:textSize="20dp"
         android:text="Option2" />
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/option3"
         android:layout_width="320dp"
         android:layout_height="60dp"
         android:background="@drawable/buttondesign"
-
-        android:backgroundTint="#EDD928"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/option2"
         android:layout_marginTop="16dp"
         android:textColor="@color/white"
         android:textSize="20dp"
         android:text="Option3" />
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/option4"
         android:layout_width="320dp"
         android:layout_height="60dp"
-        android:backgroundTint="#EDD928"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/option3"
         android:layout_marginTop="16dp"
@@ -80,7 +76,7 @@
         android:id="@+id/submit"
         android:layout_width="320dp"
         android:layout_height="60dp"
-        android:backgroundTint="#FF5722"
+        android:backgroundTint="#1EA4E1"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/option4"
         android:layout_marginTop="56dp"
